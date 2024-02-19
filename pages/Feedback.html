@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <title>Contacts</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/styles.css">
+    </head>
+    <body>
+    <!-- BACGROUND IMAGE -->
+    <img class="bg-img" src="/images/Background.gif" alt="Background">
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 start-0 w-100 z-3">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <a href="/index.html" class="navbar-brand">
+                    <img src="/images/загружено.png" alt="Logo" width="100" height="100" class="d-inline-block alighn-text-middle"> 
+                    <b>GAME UNIVERSE ENTERTAINMENT</b>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="/index.html">
+                        <img src="/images/Home.png" alt="Home" width="30" height="30" class="d-inline-block alighn-text-middle"> 
+                        Homepage
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/pages/AboutUs.html">
+                        <img src="/images/Us.png" alt="Us" width="30" height="30" class="d-inline-block alighn-text-middle"> 
+                        About Us
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="/pages/Games.html">
+                        <img src="/images/Games.png" alt="Games" width="30" height="30" class="d-inline-block alighn-text-middle">     
+                        Games
+                    </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page">
+                        <img src="/images/Feedback.png" alt="Feedback" width="30" height="30" class="d-inline-block alighn-text-middle"> 
+                        <b>Feedback</b>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FEEDBACK INPUT -->
+    <div class="card mb-3"></div>
+    <div class="card mb-3 mx-3" style="width: fit-content; height: fit-content; background-color: rgba(70, 0, 161, 0.863); color: rgb(255, 255, 255);">
+        <div class="card-body">
+            <h2 class="card-title fs-1">Leave  your feedback about our company or our games!</h2>
+        </div>
+    </div>
+    <div class="card mb-3 mx-3" style="background-color: rgba(70, 0, 161, 0.863); color: rgb(255, 255, 255);">
+        <div class="mb-3 mx-2">
+            <label for="exampleFormControlInput1" class="form-label fs-3">Name</label>
+            <textarea class="form-control fs-4" id="exampleFormControlTextarea1" rows="1"></textarea>
+            </div>
+            <div class="mb-3 mx-2">
+            <label for="exampleFormControlInput1" class="form-label fs-3">Email address</label>
+            <input type="email" class="form-control fs-4" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 mx-2">
+            <label for="exampleFormControlTextarea1" class="form-label fs-3">Your feedback:</label>
+            <textarea class="form-control fs-4" id="exampleFormControlTextarea2" rows="3"></textarea>
+            </div>
+            <div class="mb-3 mx-2">
+            <button type="button" class="btn btn-outline-primary w-100 fs-4"><b>SUBMIT!</b></button>
+            </div>
+    </div>
+    <div class="card mb-3 ms-3" style="width: fit-content; height: fit-content; background-color: rgba(70, 0, 161, 0.863); color: rgb(255, 255, 255);">
+        <div class="card-body">
+    <!-- LATEST FEEDBACKS -->
+        <h2 class="card-title fs-1">Latest feedbacks:</h2>
+        </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="/images/tlp_hero_gaming-logo-maker-02ac2d7d12fd5dff6cc0f60775a29069.jpg" class="w-25 position-relative start-50 translate-middle-x d-block rounded-circle" alt="...">
+            <div class="card my-3 mx-3" style=" background-color: rgba(70, 0, 161, 0.863); color: rgb(255, 255, 255);">
+                <div class="card-body">
+                    <div class="carousel-caption position-relative bottom-0 start-50 translate-middle-x">
+                        <h1>Ninja Assassin Squad</h1>
+                        <p>Game Universe Entertainment is a real world of virtual adventures and incredible emotions! Impressive games created by this company attract attention with their quality and unique approach to game design.</p>
+                        </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="/images/1600w-eKEXSFkIoq0.webp" class="w-25 position-relative start-50 translate-middle-x d-block rounded-circle" alt="...">
+            <div class="card my-3 mx-3" style=" background-color: rgba(70, 0, 161, 0.863); color: rgb(255, 255, 255);">
+                <div class="card-body">
+                    <div class="carousel-caption position-relative bottom-0 start-50 translate-middle-x">
+                        <h1>IMPACT ESPORTS</h1>
+                        <p>Game Universe Entertainment is a true star among game dev companies! I am in awe of how they create in the world of video games. Their creative approach to game development is amazing - each project is unique and captivating from the first minutes. The graphics in their games are simply amazing, as if every pixel is imbued with magic.</p>
+                        </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="/images/golden-gaming-logo-esports-design-template-afc25edd053b480c109341785f2ace1e_screen.jpg" class="w-25 position-relative start-50 translate-middle-x d-block rounded-circle" alt="...">
+            <div class="card my-3 mx-3" style=" background-color: rgba(70, 0, 161, 0.863); color: rgb(255, 255, 255);">
+                <div class="card-body">
+                    <div class="carousel-caption position-relative bottom-0 start-50 translate-middle-x">
+                        <h1>Sun Gamer</h1>
+                        <p>Game Universe Entertainment consistently delivers top-notch entertainment with their innovative and immersive gaming experiences. Their dedication to quality, attention to detail, and commitment to pushing boundaries make them a standout in the industry. Their passion for crafting engaging narratives and captivating worlds shines through in every title they release, setting the standard for excellence in gaming.</p>
+                        </div>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+        <div class="card mb-5 border-0"></div>
+        <div class="card mb-5 border-0"></div>
+        <div class="card mb-5 border-0"></div>
+        <div class="card mb-5 border-0"></div>
+    <!-- FOOTER -->
+    <div class="position-fixed bottom-0 container-fluid" style="background-color: rgb(255, 255, 255);">
+        <footer class=" d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <img src="/images/загружено.png" alt="Logo" width="70" height="70" class="d-inline-block alighn-text-middle"> 
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 GAME UNIVERSE ENT.</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://gamejolt.com/@GameUniverse2_0"><img src="/images/unnamed.png" alt="GameJolt" width="200" height="60"> </a></li>
+            </ul>
+        </footer>
+    </div>
+    </body>
+</html>
